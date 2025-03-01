@@ -34,7 +34,7 @@ const getAddress = async (cep) => {
   toggleLoader()
 
   cepInput.blur();
-
+const teste
   const apiUrl = `https://viacep.com.br/ws/${cep}/json/`
 
   const response = await fetch(apiUrl)
